@@ -3,7 +3,7 @@
 <!-- Footer Widget Secton -->
 <div class="enigma_footer_widget_area">	
 	<div class="container">
-		<div class="row">
+		<!-- <div class="row">
 			<?php 
 			if ( is_active_sidebar( 'footer-widget-area' ) ){ 
 				dynamic_sidebar( 'footer-widget-area' );
@@ -16,7 +16,7 @@
 			'after_title'   => '<div class="enigma-footer-separator"></div></div>' );
 			the_widget('WP_Widget_Pages', null, $args);			
 			} ?>
-		</div>		
+		</div> -->		
 	</div>	
 </div>
 <div class="enigma_footer_area">
@@ -28,7 +28,7 @@
 			<a target="_blank" rel="nofollow" href="<?php if($wl_theme_options['developed_by_link']) { echo esc_url($wl_theme_options['developed_by_link']); } ?>"><?php if($wl_theme_options['developed_by_weblizar_text']) { echo esc_attr($wl_theme_options['developed_by_weblizar_text']); } ?></a></p>
 			<?php if($wl_theme_options['footer_section_social_media_enbled'] == '1') { ?>
 			<div class="enigma_footer_social_div">
-				<ul class="social">
+			<!-- 	<ul class="social">
 					<?php if($wl_theme_options['fb_link']!='') { ?>
 					   <li class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><a  href="<?php echo esc_url($wl_theme_options['fb_link']); ?>"><i class="fa fa-facebook"></i></a></li>
 					<?php } if($wl_theme_options['twitter_link']!='') { ?>
@@ -42,7 +42,7 @@
 	                <?php } if($wl_theme_options['instagram']!='') { ?>
 					<li class="facebook" data-toggle="tooltip" data-placement="top" title="instagram"><a href="<?php echo esc_url($wl_theme_options['instagram']) ; ?>"><i class="fa fa-instagram"></i></a></li>
 	                <?php } ?>
-				</ul>
+				</ul> -->
 			</div>
 			<?php } ?>			
 			</div>		

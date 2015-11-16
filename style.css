@@ -38,7 +38,7 @@ a:hover, a:focus{
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
-	color: #666;
+	color: black;
 	text-shadow: 0 0 1px rgba(0,0,0,0.01);
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
@@ -63,7 +63,7 @@ line-height: 26px;
 	font-size:18px;
 	
 }
-.head-contact-info li a{color:#fff;}
+.head-contact-info li a{color:black;}
 .head-contact-info i {
 	margin-right:8px;
 	font-size:20px;
@@ -79,7 +79,7 @@ line-height: 26px;
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom:10px;
 	font-size: 50px;
-	color: #fff;
+	color: black;
 }
 .logo a:hover{
 	color: #fff;
@@ -87,7 +87,7 @@ line-height: 26px;
 .logo p{
 	font-family: 'Open Sans', sans-serif;
 	margin-top:5px;
-	color: #fff;
+	color: black;
 }
 .social{
 	display: block;
@@ -1982,7 +1982,7 @@ margin-bottom: 20px;
 
 
 .enigma_footer_widget_area{
-	background: #34495e;
+	background: lightgrey;
 }
 
 .enigma-footer-separator{

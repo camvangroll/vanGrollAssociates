@@ -45,7 +45,7 @@
 						<?php if($wl_theme_options['phone_no'] !='') { ?><li><i class="fa fa-phone"></i><a href="tel:<?php echo $wl_theme_options['phone_no']; ?>"><?php echo esc_attr($wl_theme_options['phone_no']); ?></a></li><?php } ?>
 				</ul>
 				<?php } ?>
-					<ul class="social">
+					<!-- <ul class="social">
 					<?php if($wl_theme_options['fb_link']!='') { ?>
 					   <li class="facebook" data-toggle="tooltip" data-placement="bottom" title="Facebook"><a  href="<?php echo esc_url($wl_theme_options['fb_link']); ?>"><i class="fa fa-facebook"></i></a></li>
 					<?php } if($wl_theme_options['twitter_link']!='') { ?>
@@ -59,7 +59,7 @@
 	                <?php } if($wl_theme_options['instagram']!='') { ?>
 					<li class="facebook" data-toggle="tooltip" data-placement="bottom" title="instagram"><a href="<?php echo esc_url($wl_theme_options['instagram']) ; ?>"><i class="fa fa-instagram"></i></a></li>
 	                <?php } ?>
-					</ul>	
+					</ul> -->	
 				</div>
 				<?php } ?>
 			</div>
